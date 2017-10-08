@@ -1,0 +1,14 @@
+#actor {
+  position : absolute;
+}
+
+/*
+https://cdn.vectorstock.com/i/1000x1000/96/16/3349616.jpg
+*/
+
+#spinner
+{
+  position : absolute;
+  right : 7px;
+  bottom : 7px;
+}

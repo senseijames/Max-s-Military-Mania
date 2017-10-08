@@ -1,0 +1,33 @@
+<html>
+<head>
+	<script src="jquery.min.js"></script>
+	<script src="main.js"></script>
+	<link rel="stylesheet" href="main.css" />
+	
+	<title>Max&#39;s Military Mania</title>
+</head>
+<body>
+Choose your weapon:
+<select onchange="onWeaponSelected(event)">
+  <option>Megajagger</option>
+  <option>Heavy Machine Gun</option>
+  <option>Bow and Arrow</option>
+</select>
+
+<p id="selectedWeapon"></p>
+
+<!--
+https://cdn.shopify.com/s/files/1/1256/6843/products/8bitrangersticker_180x180.png
+http://images.cdn2.stockunlimited.net/clipart/pixel-art-army_1959068.jpg
+-->
+<img id="actor" src="https://cdn.shopify.com/s/files/1/1256/6843/products/8bitrangersticker_140x140.png"/>
+
+<img id="bg" src="http://img.gawkerassets.com/img/17l6u0fn3nlypjpg/original.jpg"/>
+
+<!-- TODO: Make this a site icon! -->
+<div id="spinner">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/120-cell-inner.gif"/>
+  <p style="display: none">Show 120 Cell Spinner</p>
+</div>
+</body>
+</html>
